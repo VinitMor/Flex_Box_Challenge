@@ -1,0 +1,61 @@
+body{
+    background-color: bisque;
+    padding: 2px;
+}
+.rule{
+    text-decoration-thickness: 50px;
+    height: 10px;
+}
+.Boxes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+.class{
+    color: white;
+    font-size: small;
+}
+.Box{
+    padding: 2px;
+    font-style: normal;
+    text-decoration-color: black;
+    border: 2px solid darkblue;
+    width: 400px;
+    height: 970px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+.Site{            
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+.h1{
+    text-align: center;
+    text-decoration: solid;
+    color: brown;
+}
+#box-1{
+    background-color: violet;
+}
+#box-2{
+    background-color: aquamarine;
+}
+#box-3{
+    background-color: rgb(235, 196, 24);
+}
+#box-4{
+    background-color: rgb(136, 248, 9);
+}
+#box-5{
+    background-color: rgb(23, 175, 235);
+}
+#box-6{
+    background-color: rgb(222, 235, 105);
+}
